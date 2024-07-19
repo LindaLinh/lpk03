@@ -1,0 +1,28 @@
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .arrange-0 {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .arrange {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .team,
+  .primary,
+  .timeline {
+    border-left: 10px solid blue;
+    height: 100%;
+  }
+
+  .arrange-2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .arrange-3 {
+    display: flex;
+    flex-direction: column;
+  }
+}
